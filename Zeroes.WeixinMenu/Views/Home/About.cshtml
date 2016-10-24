@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>工作号二维码</h2>
+<p>
+    <img  width="200" height="200" src="~/Images/qrcode_test.jpg" />    
+</p>
+<h2>使用说明</h2>
+<p>修改appSettings.config文件，配置Token、EncodingAESKey、AppID、AppSecret等信息。</p>
+<p>查询，从公众号查询菜单配置信息并保存在站点根目录下的weixin-menu.json文件中。</p>
+<p>发布，读取weixin-menu.json文件中菜单信息发布到公众号平台。</p>
+<p>新增、编辑、删除保存后都是保存到weixin-menu.json文件。</p>
+<h2>参考项目</h2>
+<p>编辑页面来源 https://github.com/ckaqq/weixin-menu </p>
+<p>微信SDK参考  https://github.com/night-king/weixinSDK </p>
